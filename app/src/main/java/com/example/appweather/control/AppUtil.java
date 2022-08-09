@@ -1,4 +1,4 @@
-package com.example.appweather.gson;
+package com.example.appweather.control;
 
 import android.content.Context;
 import android.net.ConnectivityManager;
@@ -18,7 +18,8 @@ public class AppUtil {
                 .getSystemService(Context.CONNECTIVITY_SERVICE);
 
         if (connectivityManager == null) {
-            return false;}
+            return false;
+        }
 
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.Q) {
             Network network = connectivityManager.getActiveNetwork();

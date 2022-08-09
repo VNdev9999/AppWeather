@@ -1,7 +1,6 @@
-package com.example.appweather.retrofit;
+package com.example.appweather.model.retrofit;
 
-import com.example.appweather.gson.ResponseWeather;
-import com.example.appweather.response.WeatherResponse;
+import com.example.appweather.model.entity.ResponseWeather;
 
 import retrofit2.Call;
 import retrofit2.http.GET;

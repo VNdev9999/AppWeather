@@ -3,9 +3,16 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/yeuai/AndroidStudioProjects/AppWeather/app/src/main/res/drawable-v24/custom_layout_item_icon_weather.xml" value="0.1" />
         <entry key="..\:/Users/yeuai/AndroidStudioProjects/AppWeather/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.139" />
         <entry key="..\:/Users/yeuai/AndroidStudioProjects/AppWeather/app/src/main/res/drawable/bg_gradient.xml" value="0.16" />
+        <entry key="..\:/Users/yeuai/AndroidStudioProjects/AppWeather/app/src/main/res/drawable/bg_gradient_screen.xml" value="0.16" />
+        <entry key="..\:/Users/yeuai/AndroidStudioProjects/AppWeather/app/src/main/res/drawable/bg_item.xml" value="0.1335" />
+        <entry key="..\:/Users/yeuai/AndroidStudioProjects/AppWeather/app/src/main/res/drawable/bg_screen.xml" value="0.1" />
+        <entry key="..\:/Users/yeuai/AndroidStudioProjects/AppWeather/app/src/main/res/drawable/bg_srceen.xml" value="0.1" />
+        <entry key="..\:/Users/yeuai/AndroidStudioProjects/AppWeather/app/src/main/res/drawable/custom_item_icon_weather.xml" value="0.1" />
         <entry key="..\:/Users/yeuai/AndroidStudioProjects/AppWeather/app/src/main/res/drawable/ic_launcher_background.xml" value="0.139" />
+        <entry key="..\:/Users/yeuai/AndroidStudioProjects/AppWeather/app/src/main/res/drawable/ic_row.xml" value="0.16" />
         <entry key="..\:/Users/yeuai/AndroidStudioProjects/AppWeather/app/src/main/res/drawable/ic_settings.xml" value="0.1095" />
         <entry key="..\:/Users/yeuai/AndroidStudioProjects/AppWeather/app/src/main/res/drawable/ic_today.xml" value="0.139" />
         <entry key="..\:/Users/yeuai/AndroidStudioProjects/AppWeather/app/src/main/res/drawable/ic_weekly.xml" value="0.139" />
@@ -13,8 +20,11 @@
         <entry key="..\:/Users/yeuai/AndroidStudioProjects/AppWeather/app/src/main/res/layout/activity_splash.xml" value="0.23802083333333332" />
         <entry key="..\:/Users/yeuai/AndroidStudioProjects/AppWeather/app/src/main/res/layout/fragment_today.xml" value="0.23802083333333332" />
         <entry key="..\:/Users/yeuai/AndroidStudioProjects/AppWeather/app/src/main/res/layout/fragment_weekly.xml" value="0.23802083333333332" />
+        <entry key="..\:/Users/yeuai/AndroidStudioProjects/AppWeather/app/src/main/res/layout/item_category_city.xml" value="0.23802083333333332" />
+        <entry key="..\:/Users/yeuai/AndroidStudioProjects/AppWeather/app/src/main/res/layout/item_selected.xml" value="0.23697916666666666" />
         <entry key="..\:/Users/yeuai/AndroidStudioProjects/AppWeather/app/src/main/res/layout/item_weather.xml" value="0.1157548125633232" />
         <entry key="..\:/Users/yeuai/AndroidStudioProjects/AppWeather/app/src/main/res/layout/item_weekly.xml" value="0.23802083333333332" />
+        <entry key="..\:/Users/yeuai/AndroidStudioProjects/AppWeather/app/src/main/res/layout/layout_dialog.xml" value="0.23697916666666666" />
         <entry key="..\:/Users/yeuai/AndroidStudioProjects/AppWeather/app/src/main/res/menu/menu_bottom_navigation.xml" value="0.176" />
       </map>
     </option>

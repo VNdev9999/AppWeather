@@ -1,10 +1,11 @@
-
-package com.example.appweather.gson;
+package com.example.appweather.model.entity;
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
-public class Weather {
+import java.io.Serializable;
+
+public class Weather implements Serializable {
 
     @SerializedName("id")
     @Expose

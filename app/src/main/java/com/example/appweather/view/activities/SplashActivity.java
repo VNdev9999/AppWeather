@@ -1,4 +1,4 @@
-package com.example.appweather.activities;
+package com.example.appweather.view.activities;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -7,16 +7,21 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.appweather.R;
-import com.example.appweather.gson.AppUtil;
+import com.example.appweather.control.AppUtil;
+import com.example.appweather.databinding.ActivitySplashBinding;
 
 public class SplashActivity extends AppCompatActivity {
+
+    private ActivitySplashBinding binding;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_splash);
+        binding = ActivitySplashBinding.inflate(getLayoutInflater());
+        setContentView(binding.getRoot());
+
         loadData();
+        setActionLottie();
     }
 
     private void loadData() {
@@ -32,5 +37,9 @@ public class SplashActivity extends AppCompatActivity {
         } else {
             Toast.makeText(this, "Network disconnected", Toast.LENGTH_SHORT).show();
         }
+    }
+
+    private void setActionLottie() {
+        binding.lottieLayerName.animate().translationY(-2000).setDuration(2700).setStartDelay(0);
     }
 }

@@ -10,5 +10,8 @@
     <color name="primary">#9C9EFE</color>
     <color name="gradient_start">#f6d365</color>
     <color name="gradient_end">#fda085</color>
-    <color name="gray">#808080</color>
+    <color name="gray">#837B7B</color>
+    <color name="gradient_screen_start">#bdc3c7</color>
+    <color name="gradient_screen_end">#2c3e50</color>
+    <color name="bg_color_item">#EFEFEF</color>
 </resources>

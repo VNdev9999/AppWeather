@@ -1,11 +1,11 @@
-package com.example.appweather.retrofit;
+package com.example.appweather.model.retrofit;
 
 import static com.example.appweather.ultilties.Constants.BASE_URL;
 
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
-public class    RetrofitRequest {
+public class RetrofitRequest {
         private static Retrofit retrofit;
         public static Retrofit getRetrofitInstance(){
                 if(retrofit == null){
