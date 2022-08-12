@@ -13,7 +13,6 @@ import retrofit2.Callback;
 import retrofit2.Response;
 
 public class WeatherRepository {
-
     private final ApiRequest apiRequest;
     private MutableLiveData<ResponseWeather> data;
 
@@ -22,7 +21,6 @@ public class WeatherRepository {
     }
 
     public LiveData<ResponseWeather> getDashBoardWeather(String lat, String lon) {
-
         data = new MutableLiveData<>();
         apiRequest.getWeather(lat, lon, Constants.API_KEY)
                 .enqueue(new Callback<ResponseWeather>() {
